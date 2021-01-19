@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+	<script type="text/javascript">
+		  /*Responsive Navigation*/
+	    $(document).ready(function(){
+	        $('.toggle').click(function(){
+		    $('.toggle').toggleClass('active')
+		    $('nav ul').toggleClass('active-menu')})
+        });
+	</script>
+</head>
+<body>
+    <!------navigation--------->
+    <div id="main">
+        <nav>
+            <img src="img/logo.png" alt="logo" width="60px">
+            <ul class="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+            <a href="#" class="lang">En</a>
+        </nav>
+    <!-----------phargraph-------->
+        <div class="name">
+            <p>Hello</p>
+            <h1>I'm <font color=#17d1ac> Ahmad</font> Ali</h1>
+            <p class="details">
+                How To Make A Website <br>
+                Create Responsive Website <br>
+                Business Website Design
+            </p>
+            <a href="#" class="cv-btn">Download Cv</a>
+        </div>
+    <!---------social------------->
+	    <div class="social">
+            <a href="https://www.facebook.com/zyn.alsham.52"><i class="fab fa-facebook-f"></i></a>	
+            <a href="https://www.instagram.com/zain.ali993/"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/00491629292303"><i class="fa fa-whatsapp"></i></a>
+        </div>
+        <div class="arrow"></div>
+    </div>
+    <!--about----------------------->
+		<div id="about">
+            <!--text---------------------->
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h2>FreeLancing FrontEnd Developer</h2>
+                <p>Hi There. <br>
+                ...  I Feel Like Web Design And Come From Giessen <br>
+                I Will Help You To Present You Or Your Business In An Exciting, <br>
+                Charming Way On The Internet.</p>
+                <button>View More Details</button>
+            </div>
+            <!--about-model----------------->
+            <div class="about-model">
+                <img alt="model" src="img/avatar--.png"/>	
+            </div>
+        </div>
+              <!--services-------------------->
+         <div id="services">
+            <!--heading-------------->
+            <div class="s-heading">
+                <h1>Services</h1>
+                <p>Here Is The Some Servies Which We Provide You.</p>
+            </div>
+            <!--services-box-container--------->
+            <div class="b-container">
+            <!--box-1---------------->
+                <div class="s-box">
+                    <!--img------------->
+                    <div class="s-b-img">
+                        <!--type----------->
+                        <div class="s-type">Front-End</div>
+                        <!--name------->
+                        <img src="img/—Pngtree—web development illustration modern_4461019.png">
+                    </div>
+            <!--text----------------->
+                    <div class="s-b-text">
+                        <a href="#">is the creation of dynamic web seiten.
+                        Examples of web seite are social networking sites like Facebook or
+                        e-commerce sites like Amazon..</a>	
+                    </div>
+                </div>
+                <!--box-2---------------->
+                <div class="s-box">
+            <!--img------------->
+                    <div class="s-b-img">
+            <!--type----------->
+                        <div class="s-type">Graphics Designi</div>
+                <!--name------->
+                            <img src="img/g2.jpg">
+                    </div>
+            <!--text----------------->
+                    <div class="s-b-text">
+                        <a href="#">is to display information harmoniously. You should ensure that beauty and usability go hand in hand,
+                        and therefore your design can discreetly carry your organization’s ideals to your users. When you establish a trustworthy visual presence.</a>	
+                    </div>
+                </div>
+                <!--box-3---------------->
+                <div class="s-box">
+            <!--img------------->
+                    <div class="s-b-img">
+                <!--type----------->
+                        <div class="s-type">SEO</div>
+                <!--name------->
+                        <img src="img/—Pngtree—seo seo search blue purple_3931351.png">
+                    </div>
+            <!--text----------------->
+                    <div class="s-b-text">
+                        <a href="#">Compared to traditional marketing, digital marketing is “alive” in that it can be interactive and include audio and/or video.
+                            It’s also published much more quickly.</a>	
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--portfolio------------------->
+        <div id="portfolio">
+          <!--heading----------->
+            <h1 class="p-headind">Portfolio</h1>
+          <!--portfolio-container------------>
+            <div class="p-container">
+          <!--portfolio-box-1-------->
+                <div class="p-box">
+          <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Writting</h1>
+                        <p>Client Project</p>	
+                    </div>
+          <!--bg-img------------->
+                    <img src="img/wraet.png">
+                </div>
+          <!--portfolio-box-2-------->
+                <div class="p-box">
+              <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Ideas</h1>
+                        <p>Client Project</p>	
+                    </div>
+          <!--bg-img------------->
+                    <img src="img/idee.png">
+                </div>
+          <!--portfolio-box-3-------->
+                <div class="p-box">
+          <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Music</h1>
+                        <p>Client Project</p>	
+                    </div>
+          <!--bg-img------------->
+                    <img src="img/music.png">
+                </div>
+          <!--portfolio-box-4-------->
+                <div class="p-box">
+          <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Time</h1>
+                        <p>Client Project</p>	
+                    </div>
+          <!--bg-img------------->	
+                    <img src="img/taim.png">
+                </div>
+          <!--portfolio-box-5-------->
+                <div class="p-box">
+          <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Creative</h1>
+                        <p>Client Project</p>	
+                    </div>
+          <!--bg-img------------->	
+                    <img src="img/creativ.png">
+                </div>
+          <!--portfolio-box-6-------->
+                <div class="p-box">
+          <!--text--------->
+                    <div class="overlay-text">
+                        <h1>Books</h1>
+                        <p>Client Project</p>	
+                    </div>
+          <!--bg-img------------->	
+                    <img src="img/book.png">
+                </div>
+            </div>
+        </div>
+         <!--Contact-btn------------------>
+	    <div id="contact-btn">
+        <!--heading-------------->
+            <h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
+        <!--btn-------->
+            <button >Contact Me</button>
+        </div>
+          <!--contact-form------------------->
+        <div id="contact-form">
+            <form>
+            <!--left--------------------------------------->
+                <div class="contact-left">
+                    <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
+            <!--name-------->
+                    <div class="f-name">
+                        <font >Name</font>
+                        <input type="text" placeholder="Full Name"/>
+                    </div>
+            <!--email-------->
+                    <div class="f-email">
+                        <font >Email</font>
+                        <input type="email" placeholder="Example@gmail.com"/>
+                    </div>
+                </div>
+            <!--right------------------------------------------->
+                <div class="contact-right">
+            <!--message-------->
+                    <div class="message">
+                        <font >Message</font>
+                        <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+                    </div>
+            <!--submit-btn------------>
+                    <button>submit</button>
+                </div>
+            </form>
+        </div> 
+</body>
+</html>
